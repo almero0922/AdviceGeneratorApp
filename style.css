@@ -1,0 +1,61 @@
+:root{
+--LightCyan: hsl(193, 38%, 86%);
+--NeonGreen: hsl(150, 100%, 66%);
+--GrayishBlue: hsl(217, 19%, 38%);
+--DarkGrayishBlue: hsl(217, 19%, 24%);
+--DarkBlue: hsl(218, 23%, 16%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background-color: var(--DarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem;
+}
+.advice-wrapper{
+    background-color: var(--DarkGrayishBlue);
+    height: 340px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    position: relative;
+}
+.advice-id{
+    color: var(--NeonGreen);
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+}
+.advice-text{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+.container-separator{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.line{
+    width: 42%;
+}
+.separator-icon{
+    background-image: url('./images/pattern-divider-mobile.svg');
+    display: block;
+    height: 20px;
+    width: 88%;
+    position: absolute;
+}
